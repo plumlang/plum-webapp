@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, ChevronRight, SquarePen } from "lucide-react";
 import { CopyPageButton } from "@/components/copy-page";
+import { NextLink } from "@/components/next-link";
 import type { DocPage } from "@/lib/docs";
 import type { Heading } from "@/lib/markdown";
 import { jsonLd } from "@/lib/seo";
@@ -8,21 +9,6 @@ import { LLMS_FULL_PATH } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 export type Crumb = { name: string; path: string };
-
-/** A rounded link to the next step, the way every page and story section ends. */
-export function NextLink({ href, children, variant = "solid" }: { href: string; children: React.ReactNode; variant?: "solid" | "outline" }) {
-  return (
-    <Link
-      href={href}
-      className={cn(
-        "inline-flex h-9 items-center gap-2 rounded-full px-4 text-[0.8rem] font-medium transition-opacity",
-        variant === "solid" ? "bg-foreground text-background hover:opacity-85" : "border bg-card hover:bg-muted",
-      )}
-    >
-      {children} <ArrowRight className="size-3.5" aria-hidden="true" />
-    </Link>
-  );
-}
 
 /**
  * Breadcrumbs, eyebrow, the page's one h1, its one-line purpose, and the
@@ -79,7 +65,7 @@ export function DocHeader({
         <CopyPageButton />
         <a
           href={LLMS_FULL_PATH}
-          className="inline-flex h-9 items-center px-2 font-mono text-[0.75rem] text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+          className="inline-flex h-10 items-center px-2 font-mono text-[0.75rem] text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
         >
           llms-full.txt
         </a>

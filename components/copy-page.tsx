@@ -24,7 +24,7 @@ export function CopyPageButton() {
     <button
       type="button"
       onClick={copy}
-      className="inline-flex h-9 items-center gap-2 rounded-full border bg-card px-4 text-[0.8rem] font-medium transition-colors hover:bg-muted"
+      className="inline-flex h-10 items-center gap-2 rounded-full border bg-card px-4 text-[0.82rem] font-medium transition-colors hover:bg-muted"
       title="Copy this page as Markdown, with its URL, for a language model"
     >
       {state === "copied" ? (

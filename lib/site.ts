@@ -18,6 +18,12 @@ export const LICENSE_URL = `${REPO_URL}/blob/main/LICENSE`;
 export const ELIXPO_URL = "https://elixpo.com";
 export const CONTACT_EMAIL = "hello@elixpo.com";
 
+/** Plumlang's creators, in this order (as in plumlang's CITATION.cff). */
+export const CREATORS = ["Ayushman Bhattacharya", "Subhro Koley", "Rohan Hudati"] as const;
+
+/** "A, B and C". */
+export const CREATORS_TEXT = `${CREATORS.slice(0, -1).join(", ")} and ${CREATORS[CREATORS.length - 1]}`;
+
 /** The absolute URL of a site path. */
 export const absoluteUrl = (path: string) => new URL(path, SITE_URL).toString();
 

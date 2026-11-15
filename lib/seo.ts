@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/site";
+import { CREATORS, SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/site";
 
 export const OG_IMAGE = {
   url: "/og.png",
@@ -58,6 +58,13 @@ export const ORGANIZATION = {
   url: "https://elixpo.com",
   sameAs: ["https://github.com/elixpo", "https://github.com/plumlang"],
 } as const;
+
+/** The creators as schema.org people, working at Elixpo. */
+export const CREATOR_PEOPLE = CREATORS.map((name) => ({
+  "@type": "Person",
+  name,
+  affiliation: { "@id": ORGANIZATION["@id"] },
+}));
 
 export const WEBSITE = {
   "@type": "WebSite",

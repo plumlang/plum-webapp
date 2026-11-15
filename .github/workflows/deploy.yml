@@ -1,7 +1,7 @@
 # Production Deploy: builds the static site and publishes it to Cloudflare
 # Pages (plum.elixpo.com), through the shared Elixpo deploy workflow.
 # Needs the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID organization
-# secrets, and a Pages project named plum-webapp with plum.elixpo.com as
+# secrets, and a Pages project named plum-elixpo (Pages names take no dots) with plum.elixpo.com as
 # its custom domain.
 name: Production Deploy
 
@@ -21,7 +21,7 @@ jobs:
   site:
     uses: elixpo/agent.elixpo/.github/workflows/deploy-cloudflare-pages.yml@main
     with:
-      project-name: plum-webapp
+      project-name: plum-elixpo
       build-command: npm run build
       output-directory: out
     secrets: inherit

@@ -217,6 +217,11 @@ const specPages: DocPage[] = specParts.sections.map(({ heading, body }) => {
 });
 for (const page of specPages) page.path = `/docs/${page.slug.join("/")}/`;
 
+// The overview ends with the list of sections.
+languageIndex.markdown += `\n\n## Sections\n\n${specPages
+  .map((page) => `- [${page.navTitle}](${page.path})${page.badge ? ` (${page.badge})` : ""}`)
+  .join("\n")}\n`;
+
 /** The page and anchor of each spec section number: "9" and "9.4". */
 const sectionTargets = new Map<string, string>();
 specParts.sections.forEach(({ heading, body }, i) => {

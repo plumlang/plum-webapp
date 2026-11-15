@@ -1,0 +1,41 @@
+schema_version: '1.0'
+project:
+  id: plum-elixpo
+  name: plum.elixpo
+  title: Plumlang website
+  description: The Plumlang website at plum.elixpo.com, with the documentation
+    and a playground that runs Plumlang in the browser.
+  family: project
+  artifact_type: website
+  profile: static-site
+  technologies:
+  - Next.js
+  - React
+  - Tailwind CSS
+  - WebAssembly
+  chapter_status: null
+  lifecycle: active
+  relationship: satellite
+  custody: elixpo-owned
+  stack: nextjs
+  node_version: '22'
+  repository: https://github.com/plumlang/plum.elixpo
+  deployment: https://plum.elixpo.com
+  discussions: https://github.com/plumlang/plumlang/discussions
+  status_owner: elixpo
+  status_verified_at: '2026-11-15'
+publication:
+  public: true
+  featured: false
+  canonical_slug: plum-elixpo
+  canonical_url: https://plum.elixpo.com
+ci:
+  lint_cmd: npm run lint
+  test_cmd: ''
+  build_cmd: npm run build
+maintainers:
+- github: Circuit-Overtime
+  skills:
+  - Next.js
+  - React
+  lead: true

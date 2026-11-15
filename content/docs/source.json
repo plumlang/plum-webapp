@@ -1,0 +1,80 @@
+{
+  "sourceRepository": "https://github.com/plumlang/plumlang",
+  "sourceCommit": "18806f6d17963a4ea4a815d8d9a6b224e489003f",
+  "sourceCommittedAt": "2026-11-15T21:22:22+05:30",
+  "dirty": false,
+  "files": [
+    {
+      "path": "docs/spec.md",
+      "sha256": "243fe9ddfca95d0ca1c922facf951c61ee96a549afeec29d9bfc7d8357153052"
+    },
+    {
+      "path": "docs/errors.md",
+      "sha256": "0be9d4deebebcecf58b6c994f9e7846af7260f8ceacb8aaebf5f73a905356be3"
+    },
+    {
+      "path": "docs/stdlib/README.md",
+      "sha256": "15b1a58195d7e3adc4070d1b2cb0e90b9a9dd894d5a08c6abc50dc46c5ef57ca"
+    },
+    {
+      "path": "docs/stdlib/fs.md",
+      "sha256": "8dab921c3f9be841dc2484b117b3afa1b9d7988bd5b4cd3ca48b3357b8d5a07b"
+    },
+    {
+      "path": "docs/stdlib/io.md",
+      "sha256": "8e92f0a52fdf644ba1a89190d392336b9421e13a881ef224a79a3065cd96b90b"
+    },
+    {
+      "path": "docs/stdlib/json.md",
+      "sha256": "c9991a79b7b7d4a31affefbf4ae0666f51e7e6a5e818308c53f68ed24f9eb8b4"
+    },
+    {
+      "path": "docs/stdlib/json.value.md",
+      "sha256": "098519b8f1cc5e0ccfed91326fe93889e34cb5c3f232e0ce47616d0226359e24"
+    },
+    {
+      "path": "docs/stdlib/math.md",
+      "sha256": "e604655d1fbdff2903ac9f242754482d6ae5494d8b30b7f8799b9093c12afc5c"
+    },
+    {
+      "path": "docs/stdlib/net.connection.md",
+      "sha256": "f4c482c62ca966f97595a12e11bb387b14689bccf85d13c8ad1d58b0f1ba0496"
+    },
+    {
+      "path": "docs/stdlib/net.http.md",
+      "sha256": "7f97cb30029c3a98ac8122dc923abf8014e8daff20d404e13b170967607c9c9d"
+    },
+    {
+      "path": "docs/stdlib/net.listener.md",
+      "sha256": "f8dabfc07019b156cd36ec9e4599060d8355b34c88a6e2df06fd1a9e8ef09f10"
+    },
+    {
+      "path": "docs/stdlib/net.md",
+      "sha256": "ae1b1350b74a1b7396a24f7aebaaa9dc5229e285bca40133a4a2da7386443dfd"
+    },
+    {
+      "path": "docs/stdlib/net.udp.md",
+      "sha256": "f07bf048fcf52de67c83ba36a164030795cb33171ff8b9e3fc7705d697ea5eae"
+    },
+    {
+      "path": "docs/stdlib/os.md",
+      "sha256": "5f3e4112c4af8d04af362d17d7ff2911a9cbe0b8c3f5643d3509da582ed3c939"
+    },
+    {
+      "path": "docs/stdlib/str.md",
+      "sha256": "563d350c21814aef31392636045cd875ab704aa2c26db4ac232ec756ed1e0b8d"
+    },
+    {
+      "path": "docs/stdlib/task.methods.md",
+      "sha256": "f80dde9c821b431dacbfd228cf4780fef45161dc3ed2fd97ce41be8ceef15a92"
+    },
+    {
+      "path": "docs/stdlib/time.md",
+      "sha256": "3dafb1d8355f198ab66e2957d92ae1b055b54e49fbcdea0b75a0833f7eac07ba"
+    },
+    {
+      "path": "docs/stdlib/writing-a-module.md",
+      "sha256": "407d1238778a5b72a1460efb92731070af7cb32640d324616a3180153bf286b3"
+    }
+  ]
+}

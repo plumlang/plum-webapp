@@ -9,10 +9,6 @@ lead: Put the plum binary on your PATH with one command on Linux, macOS or Windo
 Plumlang is one program, `plum`, with no dependencies: the compiler, the
 virtual machine and the standard library are all inside it.
 
-> The first release is being prepared. Until it is published on
-> [GitHub Releases](https://github.com/plumlang/plumlang/releases), the
-> installers have nothing to download: [build from source](#build-from-source).
-
 ## Linux and macOS
 
 ```bash

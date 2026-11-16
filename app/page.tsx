@@ -209,11 +209,11 @@ export default function Home() {
           </div>
         </div>
         <p className="mt-6 text-sm text-muted-foreground">
-          The first release is being prepared; until it is on{" "}
+          Every build is listed with its checksum on{" "}
           <a href={RELEASES_URL} className="underline underline-offset-4 hover:text-foreground">
             GitHub Releases
           </a>
-          , build from source. Homebrew and winget: coming soon.
+          . Homebrew and winget: coming soon.
         </p>
       </StorySection>
 
